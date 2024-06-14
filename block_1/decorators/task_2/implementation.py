@@ -1,4 +1,4 @@
-from common import (
+from block_1.common import (
     MyException,
 )
 cnt = 0
