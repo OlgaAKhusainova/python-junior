@@ -8,4 +8,6 @@ def flatten_list(matrix: list) -> list:
     Returns:
         линейный список
     """
+    result = [m for n in matrix for m in n]
+    return result
     raise NotImplementedError
